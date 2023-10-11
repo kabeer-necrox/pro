@@ -1,0 +1,374 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #222831;
+}
+
+
+ .firstmainConntainer{
+    background-image: url('./images/background.png');
+    
+ }
+
+ nav{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .buttonOne button{
+    background-color: #28aeb5;
+    padding: 10px  30px;
+    border-radius: 10px;
+    columns: white;
+    border: none;
+    margin-top: 15px;
+    margin-left: 22px;
+ }
+ @media (max-width: 460px) {
+    .navLogo {
+      display: none;
+    }
+  }
+
+  .firstmainsecText {
+    margin-top: 140px;
+}
+
+.firstmainsecText h2{
+  
+    color: white;
+    padding-left: 20px;
+}
+.firstsectionTwobtn button{
+    background-color: #28aeb5;
+    padding: 10px  30px;
+    border-radius: 10px;
+    columns: white;
+    border: none;
+    margin-top: 15px;
+    margin-left: 22px;
+
+}
+
+@media (max-width: 460px) {
+    .firstmainsecText {
+      text-align: center;
+    }
+  }
+
+  .firstsectionTwobtn {
+    display: flex;
+   
+  }
+  @media (max-width: 460px) {
+    .firstsectionTwobtn {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+/* ********************first section style end here******************** */
+
+
+
+/* *****************second section style start from here**************** */
+
+.mainsecondforAll{
+    display: flex;
+    justify-content: space-around;
+    background-color: #393e46;
+    margin-top: 50px;
+   
+}
+
+.textAndButton{
+    color:white;
+}
+.textAndButton button{
+    background-color: #28aeb5;
+    padding: 10px  30px;
+    border-radius: 10px;
+    columns: white;
+    border: none;
+    margin-top: 15px;
+    margin-left: 22px;
+
+}
+.sectwoImagesandTextTwo{
+    display: flex;
+    gap: 15px;
+    
+}
+.centerTwoImages{
+    display: flex;
+    align-items: end;
+}
+.secondLastImage{
+    margin-top: 30px;
+}
+.centerTwoImages img{
+    margin-left: 10px;
+}
+
+@media (max-width: 460px) {
+    .secondLastImage img {
+      display: none;
+    }
+  }
+
+
+
+  @media (max-width: 460px) {
+    .mainsecondforAll {
+        flex-direction: column;
+        align-items: center; 
+        
+    }
+    .centerTwoImages img{
+        width: 100px;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+}
+ 
+
+/* *****************3rd section style is here***************** */
+
+.thirdmainsection{
+    background-image: url(./images/bgimg.png);
+}
+  
+
+.thirdTwoBtnimages{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+.tjirdsecLink a{
+    color: white;
+    text-decoration: none;
+    font-size: 3em;
+}
+ 
+
+@media (max-width: 460px) {
+   
+        .thirdTwoBtnimages{
+            flex-direction: column;
+             align-items: center;
+             padding-top: 30px;
+
+        }
+
+       .thirdTwoBtnimages img{
+        width: 100px;
+
+    }
+    .tjirdsecLink a{
+        font-size: 1em;
+    }
+
+
+}
+
+
+
+/* ************4th style is here********************* */
+
+.fithsectionmani{
+    display: flex;
+   
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.fithsectionmani img{
+    margin-top: 20px;
+}
+
+@media (max-width: 460px) {
+    .fithsectionmani{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    
+    }
+  }
+
+
+
+/* ********************x section style************************** */
+
+.divider{
+    width: 40%;
+    height: 3px;
+    background-color: white;
+}
+
+
+
+.mainsixondforAll{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainsixondforAll h2{
+    color: white;
+}
+
+@media (max-width: 460px) {
+    .divider{
+        
+        display: none;
+       
+    
+    }
+    .sixtext{
+        display: none;
+    }
+  }
+
+.sixsectionTwopic{
+    display: flex;
+    justify-content: center;
+   
+   
+}
+.sixsectionTwopic img{
+    margin-left: 10px;
+    padding-top: 30px;
+
+}
+
+
+@media (max-width: 460px) {
+    .sixsectionTwopic{
+        display: flex;
+        flex-direction: column;
+       
+        align-items: center;
+       
+       
+    }
+    }
+
+    .sixsectionlastText{
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+
+
+
+/* *******************vent section style***************** */
+
+
+.seventhsectionMain{
+
+    background-color: #393e46;
+}
+
+.sevnthsectionSec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.sevntsecBtn button{
+    background-color: #28aeb5;
+    padding: 10px  30px;
+    border-radius: 10px;
+    columns: white;
+    border: none;
+    margin-top: 15px;
+    margin-left: 22px;
+    display: none;
+   
+}
+.sevntsecBtn {
+    display: flex;
+    justify-content: center
+
+}
+@media (max-width: 460px) {
+    .sevntsecBtn button{
+        background-color: #28aeb5;
+        padding: 10px  30px;
+        border-radius: 10px;
+        columns: white;
+        border: none;
+        margin-top: 15px;
+        margin-left: 22px;
+       
+    }
+    .sevntsecBtn {
+        display: flex;
+        justify-content: center
+    
+    }
+
+    }
+
+
+.sevnthsectionlatlink a{
+    color: white ;
+    text-decoration: none;
+}
+
+
+
+/* *****************footer section style is here**************************** */
+
+
+
+.mainfootersection{
+   background-color :#222831;
+   display: flex;
+   justify-content: space-between;
+}
+
+.leftfooter{
+    margin-top: 20px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-decoration: none;
+}
+.leftfooter a{
+    color: white;
+    text-decoration: none;
+
+}
+
+
+.rightfooter {
+    padding-right: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-decoration: none;
+
+}
+.rightfooter a{
+    color: white;
+    text-decoration: none;
+
+}
+@media (max-width: 460px) {
+    .rightfooter {
+       display: none;
+    
+    }
+.centerfooterlogo{
+    display: none;
+}
+
+
+}
